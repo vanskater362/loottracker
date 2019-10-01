@@ -1,0 +1,132 @@
+function setdkp (dkp, loop) {
+		for (i = 0; i < loop; i++) {
+			document.raid.elements['dkp['+i+']'].value = dkp;
+		}
+	}
+	
+	function setdkptextbox (dkp, i) {
+		
+		var tr = document.getElementById("tr" + i);
+		var box = eval(document.raid.elements['attended['+i+']']);
+		
+		if (box.checked == true) {
+			tr.style.backgroundColor="#333333";
+		} else {
+			tr.style.backgroundColor="black";
+		}
+			
+		if (document.raid.elements['dkp['+i+']'].value == '') {
+			document.raid.elements['dkp['+i+']'].value = dkp;
+		} else {
+			document.raid.elements['dkp['+i+']'].value = '';
+
+		}
+				
+	}
+	
+	function ontimebonus (dkp, i) {
+			box = eval(document.raid.elements['ontimebonusdkp['+i+']']);
+			if (document.raid.elements['dkp['+i+']'].value != '') {
+				if (box.checked == true){
+					document.raid.elements['dkp['+i+']'].value = (parseInt(document.raid.elements['dkp['+i+']'].value) + 10);
+				}
+				else{
+					document.raid.elements['dkp['+i+']'].value = (parseInt(document.raid.elements['dkp['+i+']'].value) - 10);
+				}
+					
+			}
+	}
+	
+	function bonus (dkp, i) {
+			//alert (dkp + " " + i);
+			box = eval(document.raid.elements['bonusdkp_array['+i+']']);
+			if (document.raid.elements['bonusdkp'].value != '') {
+				if (document.raid.elements['dkp['+i+']'].value != '') {
+					if (box.checked == true) {
+						document.raid.elements['dkp['+i+']'].value = (parseInt(document.raid.elements['dkp['+i+']'].value) + parseInt(dkp));
+					}
+					else {
+						document.raid.elements['dkp['+i+']'].value = (parseInt(document.raid.elements['dkp['+i+']'].value) - parseInt(dkp));
+					}
+				}
+			}
+	}
+	
+	function app (dkp, i) {
+			//alert (dkp + " " + i);
+			box = eval(document.raid.elements['app['+i+']']);
+			if (document.raid.elements['dkp['+i+']'].value != '') {
+				if (box.checked == true) {
+					document.raid.elements['dkp['+i+']'].value = (parseFloat(document.raid.elements['dkp['+i+']'].value) / 2);
+				}
+				else {
+					document.raid.elements['dkp['+i+']'].value = (parseFloat(document.raid.elements['dkp['+i+']'].value) * 2);
+				}
+			}
+	}
+	
+	function showhidediv (szDivID, iState) { // 1 visible, 0 hidden
+		
+		if (document.layers)	 {   //NN4+
+    	    document.layers[szDivID].visibility = iState ? "show" : "hide";
+    	}
+    	else if(document.getElementById) {  //gecko(NN6) + IE 5+
+			var raids = document.getElementById('raids');
+			var members = document.getElementById('members');
+			var loot = document.getElementById('loot');
+			var boss = document.getElementById('boss');
+			var zone = document.getElementById('zone');
+			
+			var attendance = document.getElementById('attendance');
+			var membersearch = document.getElementById('membersearch');
+			
+			
+			if (szDivID == "raids") {
+			 	members.style.visibility = "hidden";
+				loot.style.visibility = "hidden";
+				boss.style.visibility = "hidden";
+				zone.style.visibility = "hidden";
+			}
+			else if (szDivID == "members") {
+				raids.style.visibility = "hidden";
+				loot.style.visibility = "hidden";
+				boss.style.visibility = "hidden";
+				zone.style.visibility = "hidden";
+			}
+			else if (szDivID == "loot") {
+				raids.style.visibility = "hidden";
+				members.style.visibility = "hidden";
+				boss.style.visibility = "hidden";
+				zone.style.visibility = "hidden";
+			}
+			else if (szDivID == "boss") {
+				raids.style.visibility = "hidden";
+				members.style.visibility = "hidden";
+				loot.style.visibility = "hidden";
+				zone.style.visibility = "hidden";
+			}
+			else if (szDivID == "zone") {
+				raids.style.visibility = "hidden";
+				members.style.visibility = "hidden";
+				loot.style.visibility = "hidden";
+				boss.style.visibility = "hidden";
+			}
+			else if (szDivID == "attendance") {
+				membersearch.style.visibility = "hidden";
+			}
+			else if (szDivID == "membersearch") {
+				attendance.style.visibility = "hidden";
+			}
+			
+			var obj = document.getElementById(szDivID);
+    	    obj.style.visibility = iState ? "visible" : "hidden";
+			
+    	}
+    	else if(document.all) {	// IE 4
+	        document.all[szDivID].style.visibility = iState ? "visible" : "hidden";
+    	}
+		
+}
+function visit_wowhead(id) {
+	window.open("http://www.wowhead.com/?item=" + id);
+}
