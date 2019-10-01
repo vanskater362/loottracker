@@ -1,66 +1,133 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <% include ../partials/header.ejs %>
+<title>Blood Legion DKP Management System</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="js.js"></script>
+<script type="text/javascript" src="power.js"></script>
+<!-- <script src="http://www.wowhead.com/widgets/power.js"></script>-->
 </head>
-
-<body>
-
-  <% include ../partials/nav.ejs %>
-
-<div class="jumbotron text-center">
-  <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="/lang-logo.png">
-    </a>
-    <h1>Getting Started with Node on Heroku</h1>
-    <p>This is a sample Node application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
-    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-nodejs"><span class="glyphicon glyphicon-flash"></span> Getting Started with Node</a>
-    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/node-js-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
-  </div>
+<body style="background-image:url(images/background.jpg); background-repeat: repeat-y; background-position:center;">
+<div align="center">
+	<table width="800" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td width="100%" valign="top">
+				<table border="0" width="100%" cellpadding="0" cellspacing="0">
+					<tr>
+						<td align="center"><a href=".."><img src="images/title.jpg" border="0"></a></td>
+					</tr>
+						<td align="center" class="font">
+						<span class="link">
+							<a href="?type=dkp">Home</a>&nbsp;|&nbsp;
+							<a href="?type=raids">Raids</a>&nbsp;|&nbsp;
+							<a href="?type=recentloot">Recently Looted</a>&nbsp;|&nbsp;
+							<a href="?type=listlootboss">Boss History</a>&nbsp;|&nbsp;
+							<a href="?type=itemhistory">Item History</a>&nbsp;|&nbsp;
+							<a href="?type=statistics">Statistics</a>&nbsp;|&nbsp;
+							<a href="#" onClick="showhidediv('attendance', 1)">Raid Attendance</a>&nbsp;|&nbsp;
+							<a href="#" onClick="showhidediv('membersearch', 1)">Member Search</a>
+						</span>
+						<br><br>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" class="font">
+						<div class="attendance" id="attendance">
+							<span class="link">
+								<a href="?type=attendance&raids=15">15 Days</a>&nbsp;|&nbsp;
+								<a href="?type=attendance&raids=30">30 Days</a>&nbsp;|&nbsp;
+								<a href="?type=attendance&raids=60">60 Days</a>&nbsp;|&nbsp;
+								<a href="?type=attendance&raids=all">Overall</a>&nbsp;|&nbsp;
+								<a href="?type=attendance&raids=personal">Personal</a>
+							</span>
+						</div>
+						<div class="membersearch" id="membersearch">
+							<form action="?type=membersearch" method="post">
+								<font class="bold">Name:</font>&nbsp;<input type="text" class="textbox" size="25" name="name">&nbsp;<input type="submit" value="Search" class="textbox">
+							</form>
+						</div>
+						</td>
+					</tr>
+					<tr>
+						<td align="center">
+							<!--<?
+								if ($_GET['type'] == "dkp" || $_GET['type'] == '' )
+									include('include/memberdkp.html');
+								elseif ($_GET['type'] == "raids")
+									include('include/raids.html');
+								elseif ($_GET['type'] == "memberdetails")
+									include('include/memberdetails.html');
+								elseif ($_GET['type'] == "raiddetails")
+									include('include/raiddetails.html');
+								elseif ($_GET['type'] == "statistics")
+									include('include/statistics.html');
+								elseif ($_GET['type'] == "about")
+									include('include/about.html');
+								elseif ($_GET['type'] == "recentloot")
+									include('include/recentloot.html');
+								elseif ($_GET['type'] == "itemhistory") {
+									if ($_GET['action'] == "search")
+										include('include/itemstats.html');
+									else
+										include('include/itemhistory.html');
+								}
+								elseif ($_GET['type'] == "attendance")
+									include ('include/attendance.html');
+								elseif ($_GET['type'] == "classdetails")
+									include ('include/classdetails.html');
+								elseif ($_GET['type'] == "listlootboss")
+									include ('include/listlootboss.html');
+								elseif ($_GET['type'] == "listlootboss2")
+									include ('include/listlootboss2.html');
+								elseif ($_GET['type'] == "membersearch") {
+									//$member_name = quote_smart($_POST['name']);
+									$query = "SELECT id FROM member WHERE name LIKE '%".mysql_real_escape_string($_POST['name'])."%'";
+									$sql = mysql_query($query) or die(mysql_error());
+									while ($row = mysql_fetch_array($sql, MYSQL_ASSOC))
+										$memberid = $row['id'];
+									if ($memberid != NULL)
+										include('include/memberdetails.html');
+									else
+										echo "<font class=\"bold\">No member with that name could be found.</font>";
+								}
+							?>-->
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<table width="650">
+		<!--<?
+			if ($_GET['type'] == "dkp" || $_GET['type'] == '' ) {
+		?>-->
+			<tr>
+				<td align="right"><font class="app">*</font><font class="font"> = Applicant</font><br></td>
+			</tr>
+		<!--<? 	} 
+			if ($_GET['type'] == "dkp" && $_GET['show'] == "all") {
+			?>-->
+			<tr>
+				<td align="right"><font class="inactive">##</font><font class="font"> = Inactive</font><br></td>
+			</tr>
+		<!--<?
+			}
+		?>-->
+		<tr>
+			<td align="left">
+				
+				<font color="#666666" style="font-size:8px">
+					<!--<?
+						echo "World of Warcraft� and Blizzard Entertainment� are all trademarks or registered trademarks of Blizzard Entertainment in the United States and/or other countries. These terms and all related materials, logos, and images are copyright � Blizzard Entertainment. This site is in no way associated with or endorsed by Blizzard Entertainment�.  Tooltips provided by Wowhead.com<br>";
+						echo "&copy;Puddy";
+					?>-->
+				</font>
+			</td>
+		</tr>
+	</table>
+	
 </div>
-<div class="container">
-  <div class="alert alert-info text-center" role="alert">
-    To deploy your own copy, and learn the fundamentals of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs" class="alert-link">Getting Started with Node on Heroku</a> tutorial.
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
-      <ul>
-        <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/node-js-getting-started">Heroku Button</a> on the repository.</li>
-
-        <li>When Heroku received the source code, it fetched all the dependencies in the <a href="https://github.com/heroku/node-js-getting-started/blob/master/package.json">package.json</a>, creating a deployable slug.</li>
-        <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
-        <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
-      </ul>
-    </div>
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-link"></span> Next Steps</h3>
-      <ul>
-        <li>If you are following the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started</a> guide, then please head back to the tutorial and follow the next steps!</li>
-        <li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>
-        <ul>
-          <li><code>git clone https://github.com/heroku/node-js-getting-started.git</code> - this will create a local copy of the source code for the app</li>
-          <li><code>cd node-js-getting-started</code> - change directory into the local source code repository</li>
-          <li><code>heroku git:remote -a &lt;your-app-name></code> - associate the Heroku app with the repository</li>
-          <li>You'll now be set up to run the app locally, or <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#push-local-changes">deploy changes</a> to Heroku</li>
-        </ul>
-      </ul>
-      <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
-      <ul>
-        <li><a href="https://www.heroku.com/home">Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started with Node on Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/deploying-nodejs">Deploying Node Apps on Heroku</a></li>
-      </ul>
-    </div>
-  </div> <!-- row -->
-   <div class="alert alert-info text-center" role="alert">
-    Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.
-  </div>
-</div>
-
-
+	
 </body>
 </html>
