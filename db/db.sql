@@ -111,7 +111,37 @@ CREATE TABLE "public"."rank"
 );
 
 
+INSERT INTO class (id, class_name)
+VALUES  (DEFAULT, 'Druid'),
+        (DEFAULT, 'Hunter'),
+        (DEFAULT, 'Mage'),
+        (DEFAULT, 'Paladin'),
+        (DEFAULT, 'Priest'),
+        (DEFAULT, 'Rogue'),
+        (DEFAULT, 'Warlock'),
+        (DEFAULT, 'Warrior');
 
+INSERT INTO rank (id, rank_name)
+VALUES  (DEFAULT, 'Raider'),
+        (DEFAULT, 'Friend & Family'),
+        (DEFAULT, 'Recruit'),
+        (DEFAULT, 'Removed');
+
+INSERT INTO members (id, name, joined, class, rank, show)
+VALUES  (DEFAULT, 'Van', to_date('01 Oct 2019', 'DD Mon YYYY'), (SELECT id FROM class WHERE id=8), (SELECT id FROM rank WHERE id=2), TRUE); 
+
+INSERT INTO items (id, item_name, zone, wowhead_id)
+VALUES  (DEFAULT, 'Alcor''s Sunrazor', 'Molten Core', 14555);
+
+INSERT INTO raids (id, raid_name, date)
+VALUES  (DEFAULT, 'Test Raid', to_date('01 Oct 2019', 'DD Mon YYYY'));
+
+INSERT INTO attendance (id, raid_id, member_id)
+VALUES  (DEFAULT, (SELECT id FROM raids WHERE id=1), (SELECT id FROM members WHERE id=2));
+
+INSERT INTO items_dropped (id, raid_id, item_id, member_id)
+VALUES  (DEFAULT, (SELECT id FROM raids WHERE id=1), (SELECT id FROM items WHERE id=1), (SELECT id FROM members WHERE id=2));
+        
 
 
 
