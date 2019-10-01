@@ -1,0 +1,2312 @@
+{
+   "2564": {
+      "name_enus": "Elven Spirit Claws",
+      "quality": 3,
+      "icon": "inv_gauntlets_07",
+      "screenshot": 5789,
+      "jsonequip": {
+         "armor": 91,
+         "avgbuyout": 12000,
+         "displayid": 4485,
+         "dmgrange": 1,
+         "dura": 35,
+         "int": 5,
+         "natsplpwr": 21,
+         "reqlevel": 45,
+         "sellprice": 6817,
+         "slotbak": 10,
+         "spi": 9
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "9402": {
+      "name_enus": "Earthborn Kilt",
+      "quality": 3,
+      "icon": "inv_pants_12",
+      "screenshot": 9751,
+      "jsonequip": {
+         "armor": 148,
+         "displayid": 21403,
+         "dmgrange": 1,
+         "dura": 75,
+         "reqlevel": 55,
+         "sellprice": 25308,
+         "slotbak": 7,
+         "spi": 29,
+         "sta": 12
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10246": {
+      "name_enus": "Master's Vest",
+      "quality": 2,
+      "icon": "inv_shirt_04",
+      "screenshot": 481030,
+      "jsonequip": {
+         "armor": 83,
+         "displayid": 27821,
+         "dmgrange": 1,
+         "dura": 70,
+         "reqlevel": 60,
+         "sellprice": 21542,
+         "slotbak": 5
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10247": {
+      "name_enus": "Master's Boots",
+      "quality": 2,
+      "icon": "inv_boots_05",
+      "screenshot": 308885,
+      "jsonequip": {
+         "armor": 56,
+         "displayid": 4272,
+         "dmgrange": 1,
+         "dura": 35,
+         "reqlevel": 58,
+         "sellprice": 14707,
+         "slotbak": 8
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10249": {
+      "name_enus": "Master's Cloak",
+      "quality": 2,
+      "icon": "inv_misc_cape_20",
+      "screenshot": 308271,
+      "jsonequip": {
+         "armor": 39,
+         "avgbuyout": 20000,
+         "displayid": 26126,
+         "dmgrange": 1,
+         "reqlevel": 56,
+         "sellprice": 13435,
+         "slotbak": 16
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10250": {
+      "name_enus": "Master's Hat",
+      "quality": 2,
+      "icon": "inv_helmet_51",
+      "screenshot": 5812,
+      "jsonequip": {
+         "armor": 66,
+         "displayid": 27824,
+         "dmgrange": 1,
+         "dura": 45,
+         "reqlevel": 58,
+         "sellprice": 14866,
+         "slotbak": 1
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10251": {
+      "name_enus": "Master's Gloves",
+      "quality": 2,
+      "icon": "inv_gauntlets_27",
+      "screenshot": 9271,
+      "jsonequip": {
+         "armor": 51,
+         "displayid": 16642,
+         "dmgrange": 1,
+         "dura": 25,
+         "reqlevel": 58,
+         "sellprice": 9946,
+         "slotbak": 10
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10256": {
+      "name_enus": "Adventurer's Bracers",
+      "quality": 2,
+      "icon": "inv_bracer_13",
+      "screenshot": 473757,
+      "jsonequip": {
+         "armor": 68,
+         "displayid": 27847,
+         "dmgrange": 1,
+         "dura": 30,
+         "reqlevel": 56,
+         "sellprice": 10675,
+         "slotbak": 9
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10257": {
+      "name_enus": "Adventurer's Boots",
+      "quality": 2,
+      "icon": "inv_boots_07",
+      "screenshot": 120131,
+      "jsonequip": {
+         "armor": 109,
+         "displayid": 27844,
+         "dmgrange": 1,
+         "dura": 45,
+         "reqlevel": 57,
+         "sellprice": 16877,
+         "slotbak": 8
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10258": {
+      "name_enus": "Adventurer's Cape",
+      "quality": 2,
+      "icon": "inv_misc_cape_08",
+      "screenshot": 4060,
+      "jsonequip": {
+         "armor": 39,
+         "displayid": 27850,
+         "dmgrange": 1,
+         "reqlevel": 55,
+         "sellprice": 12292,
+         "slotbak": 16
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10260": {
+      "name_enus": "Adventurer's Gloves",
+      "quality": 2,
+      "icon": "inv_gauntlets_25",
+      "screenshot": 167789,
+      "jsonequip": {
+         "armor": 100,
+         "displayid": 27845,
+         "dmgrange": 1,
+         "dura": 30,
+         "reqlevel": 58,
+         "sellprice": 11945,
+         "slotbak": 10
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10261": {
+      "name_enus": "Adventurer's Bandana",
+      "quality": 2,
+      "icon": "inv_misc_bandana_03",
+      "screenshot": 31679,
+      "jsonequip": {
+         "armor": 130,
+         "displayid": 29051,
+         "dmgrange": 1,
+         "dura": 50,
+         "reqlevel": 58,
+         "sellprice": 17985,
+         "slotbak": 1
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10265": {
+      "name_enus": "Masterwork Bracers",
+      "quality": 2,
+      "icon": "inv_bracer_03",
+      "screenshot": 179993,
+      "jsonequip": {
+         "armor": 145,
+         "displayid": 26239,
+         "dmgrange": 1,
+         "dura": 35,
+         "reqlevel": 57,
+         "sellprice": 13904,
+         "slotbak": 9
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10266": {
+      "name_enus": "Masterwork Breastplate",
+      "quality": 2,
+      "icon": "inv_chest_plate16",
+      "screenshot": 118808,
+      "jsonequip": {
+         "armor": 347,
+         "avgbuyout": 300000,
+         "displayid": 26241,
+         "dmgrange": 1,
+         "dura": 100,
+         "reqlevel": 60,
+         "sellprice": 32310,
+         "slotbak": 5
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10267": {
+      "name_enus": "Masterwork Cape",
+      "quality": 2,
+      "icon": "inv_misc_cape_14",
+      "screenshot": 104351,
+      "jsonequip": {
+         "armor": 39,
+         "displayid": 26259,
+         "dmgrange": 1,
+         "reqlevel": 56,
+         "sellprice": 13337,
+         "slotbak": 16
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10268": {
+      "name_enus": "Masterwork Gauntlets",
+      "quality": 2,
+      "icon": "inv_gauntlets_04",
+      "screenshot": 167778,
+      "jsonequip": {
+         "armor": 210,
+         "displayid": 26244,
+         "dmgrange": 1,
+         "dura": 35,
+         "reqlevel": 58,
+         "sellprice": 14758,
+         "slotbak": 10
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10270": {
+      "name_enus": "Masterwork Boots",
+      "quality": 2,
+      "icon": "inv_boots_plate_03",
+      "screenshot": 308901,
+      "jsonequip": {
+         "armor": 231,
+         "avgbuyout": 30000,
+         "displayid": 26237,
+         "dmgrange": 1,
+         "dura": 50,
+         "reqlevel": 58,
+         "sellprice": 22396,
+         "slotbak": 8
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10272": {
+      "name_enus": "Masterwork Circlet",
+      "quality": 2,
+      "icon": "inv_jewelry_ring_03",
+      "screenshot": 315178,
+      "jsonequip": {
+         "armor": 274,
+         "displayid": 27804,
+         "dmgrange": 1,
+         "dura": 60,
+         "reqlevel": 58,
+         "sellprice": 20865,
+         "slotbak": 1
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10273": {
+      "name_enus": "Masterwork Legplates",
+      "quality": 2,
+      "icon": "inv_pants_06",
+      "screenshot": 383352,
+      "jsonequip": {
+         "armor": 299,
+         "displayid": 26248,
+         "dmgrange": 1,
+         "dura": 75,
+         "reqlevel": 59,
+         "sellprice": 29323,
+         "slotbak": 7
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10274": {
+      "name_enus": "Masterwork Pauldrons",
+      "quality": 2,
+      "icon": "inv_shoulder_23",
+      "screenshot": 121300,
+      "jsonequip": {
+         "armor": 253,
+         "displayid": 27805,
+         "dmgrange": 1,
+         "dura": 60,
+         "reqlevel": 58,
+         "sellprice": 21118,
+         "slotbak": 3
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10385": {
+      "name_enus": "Hyperion Greaves",
+      "quality": 2,
+      "icon": "inv_boots_plate_08",
+      "screenshot": 116047,
+      "jsonequip": {
+         "armor": 404,
+         "avgbuyout": 29900,
+         "displayid": 26341,
+         "dmgrange": 1,
+         "dura": 55,
+         "reqlevel": 57,
+         "sellprice": 13247,
+         "slotbak": 8
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10386": {
+      "name_enus": "Hyperion Gauntlets",
+      "quality": 2,
+      "icon": "inv_gauntlets_03",
+      "screenshot": 118428,
+      "jsonequip": {
+         "armor": 368,
+         "displayid": 26339,
+         "dmgrange": 1,
+         "dura": 40,
+         "reqlevel": 57,
+         "sellprice": 8865,
+         "slotbak": 10
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10388": {
+      "name_enus": "Hyperion Helm",
+      "quality": 2,
+      "icon": "inv_helmet_12",
+      "screenshot": 121294,
+      "jsonequip": {
+         "armor": 485,
+         "displayid": 26257,
+         "dmgrange": 1,
+         "dura": 70,
+         "reqlevel": 58,
+         "sellprice": 14068,
+         "slotbak": 1
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10389": {
+      "name_enus": "Hyperion Legplates",
+      "quality": 2,
+      "icon": "inv_pants_04",
+      "screenshot": 87654,
+      "jsonequip": {
+         "armor": 530,
+         "displayid": 19843,
+         "dmgrange": 1,
+         "dura": 85,
+         "reqlevel": 59,
+         "sellprice": 19770,
+         "slotbak": 7
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "10605": {
+      "name_enus": "Schematic: Spellpower Goggles Xtreme",
+      "quality": 3,
+      "icon": "inv_scroll_03",
+      "screenshot": 180981,
+      "jsonequip": {
+         "avgbuyout": 19999,
+         "displayid": 1102,
+         "dmgrange": 1,
+         "reqskill": 202,
+         "reqskillrank": 225,
+         "sellprice": 875
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "11224": {
+      "name_enus": "Formula: Enchant Shield - Frost Resistance",
+      "quality": 2,
+      "icon": "inv_misc_note_01",
+      "screenshot": 251216,
+      "jsonequip": {
+         "avgbuyout": 3000,
+         "displayid": 56741,
+         "dmgrange": 1,
+         "reqskill": 333,
+         "reqskillrank": 235,
+         "sellprice": 1450
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "11302": {
+      "name_enus": "Uther's Strength",
+      "quality": 3,
+      "icon": "inv_jewelry_talisman_06",
+      "screenshot": 446485,
+      "jsonequip": {
+         "avgbuyout": 179899,
+         "displayid": 6515,
+         "dmgrange": 1,
+         "maxcount": 1,
+         "reqlevel": 47,
+         "sellprice": 7130,
+         "slotbak": 12
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "12048": {
+      "name_enus": "Prismatic Pendant",
+      "quality": 2,
+      "icon": "inv_jewelry_necklace_11",
+      "screenshot": 0,
+      "jsonequip": {
+         "displayid": 9657,
+         "dmgrange": 1,
+         "reqlevel": 60,
+         "sellprice": 6507,
+         "slotbak": 2
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "12691": {
+      "name_enus": "Plans: Wildthorn Mail",
+      "quality": 2,
+      "icon": "inv_scroll_06",
+      "screenshot": 0,
+      "jsonequip": {
+         "avgbuyout": 16500,
+         "displayid": 15274,
+         "dmgrange": 1,
+         "reqskill": 164,
+         "reqskillrank": 270,
+         "reqspell": 9788,
+         "sellprice": 4000
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "12692": {
+      "name_enus": "Plans: Thorium Shield Spike",
+      "quality": 2,
+      "icon": "inv_scroll_06",
+      "screenshot": 0,
+      "jsonequip": {
+         "displayid": 15274,
+         "dmgrange": 1,
+         "reqskill": 164,
+         "reqskillrank": 275,
+         "sellprice": 4000
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "12694": {
+      "name_enus": "Plans: Thorium Helm",
+      "quality": 2,
+      "icon": "inv_scroll_06",
+      "screenshot": 180746,
+      "jsonequip": {
+         "avgbuyout": 18700,
+         "displayid": 15274,
+         "dmgrange": 1,
+         "reqskill": 164,
+         "reqskillrank": 280,
+         "sellprice": 5000
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "12697": {
+      "name_enus": "Plans: Radiant Boots",
+      "quality": 2,
+      "icon": "inv_scroll_06",
+      "screenshot": 0,
+      "jsonequip": {
+         "avgbuyout": 49999,
+         "displayid": 15274,
+         "dmgrange": 1,
+         "reqskill": 164,
+         "reqskillrank": 290,
+         "sellprice": 5500
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "12702": {
+      "name_enus": "Plans: Radiant Circlet",
+      "quality": 2,
+      "icon": "inv_scroll_06",
+      "screenshot": 0,
+      "jsonequip": {
+         "displayid": 15274,
+         "dmgrange": 1,
+         "reqskill": 164,
+         "reqskillrank": 295,
+         "sellprice": 6250
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "12703": {
+      "name_enus": "Plans: Storm Gauntlets",
+      "quality": 3,
+      "icon": "inv_scroll_03",
+      "screenshot": 0,
+      "jsonequip": {
+         "buyprice": 40000,
+         "displayid": 1102,
+         "dmgrange": 1,
+         "reqskill": 164,
+         "reqskillrank": 295,
+         "reqspell": 9788,
+         "sellprice": 10000
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "12704": {
+      "name_enus": "Plans: Thorium Leggings",
+      "quality": 2,
+      "icon": "inv_scroll_06",
+      "screenshot": 185635,
+      "jsonequip": {
+         "displayid": 15274,
+         "dmgrange": 1,
+         "reqskill": 164,
+         "reqskillrank": 300,
+         "sellprice": 7500
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "12713": {
+      "name_enus": "Plans: Radiant Leggings",
+      "quality": 2,
+      "icon": "inv_scroll_06",
+      "screenshot": 0,
+      "jsonequip": {
+         "displayid": 15274,
+         "dmgrange": 1,
+         "reqskill": 164,
+         "reqskillrank": 300,
+         "sellprice": 10000
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "12728": {
+      "name_enus": "Plans: Invulnerable Mail",
+      "quality": 4,
+      "icon": "inv_scroll_03",
+      "screenshot": 0,
+      "jsonequip": {
+         "avgbuyout": 122000,
+         "displayid": 1102,
+         "dmgrange": 1,
+         "reqskill": 164,
+         "reqskillrank": 300,
+         "reqspell": 9788,
+         "sellprice": 20000
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13000": {
+      "name_enus": "Staff of Hale Magefire",
+      "quality": 3,
+      "icon": "inv_staff_23",
+      "screenshot": 280003,
+      "jsonequip": {
+         "displayid": 28701,
+         "dmgmax1": 210,
+         "dmgmin1": 140,
+         "dmgrange": 1,
+         "dmgtype1": 0,
+         "dps": 53.03,
+         "dura": 100,
+         "int": 25,
+         "mledmgmax": 210,
+         "mledmgmin": 140,
+         "mledps": 53.03,
+         "mlespeed": 3.3,
+         "reqlevel": 57,
+         "sellprice": 65225,
+         "sheathtype": 2,
+         "slotbak": 17,
+         "speed": 3.3,
+         "spi": 22
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13003": {
+      "name_enus": "Lord Alexander's Battle Axe",
+      "quality": 3,
+      "icon": "inv_weapon_halberd_02",
+      "screenshot": 183475,
+      "jsonequip": {
+         "agi": 17,
+         "avgbuyout": 294880,
+         "displayid": 28794,
+         "dmgmax1": 185,
+         "dmgmin1": 123,
+         "dmgrange": 1,
+         "dmgtype1": 0,
+         "dps": 48.13,
+         "dura": 100,
+         "mledmgmax": 185,
+         "mledmgmin": 123,
+         "mledps": 48.13,
+         "mlespeed": 3.2,
+         "reqlevel": 51,
+         "sellprice": 49640,
+         "sheathtype": 1,
+         "slotbak": 17,
+         "speed": 3.2,
+         "sta": 16,
+         "str": 16
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13004": {
+      "name_enus": "Torch of Austen",
+      "quality": 3,
+      "icon": "inv_wand_11",
+      "screenshot": 2985,
+      "jsonequip": {
+         "avgbuyout": 100000,
+         "displayid": 28631,
+         "dmgrange": 1,
+         "dps": 56.79,
+         "dura": 65,
+         "firres": 10,
+         "reqlevel": 53,
+         "sellprice": 33590,
+         "slotbak": 26,
+         "speed": 1.4
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13006": {
+      "name_enus": "Mass of McGowan",
+      "quality": 3,
+      "icon": "inv_hammer_17",
+      "screenshot": 503383,
+      "jsonequip": {
+         "avgbuyout": 509000,
+         "displayid": 28799,
+         "dmgmax1": 149,
+         "dmgmin1": 80,
+         "dmgrange": 1,
+         "dmgtype1": 0,
+         "dps": 40.89,
+         "dura": 90,
+         "mledmgmax": 149,
+         "mledmgmin": 80,
+         "mledps": 40.89,
+         "mlespeed": 2.8,
+         "reqlevel": 57,
+         "sellprice": 54840,
+         "sheathtype": 3,
+         "slotbak": 21,
+         "speed": 2.8,
+         "sta": 10,
+         "str": 10
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13007": {
+      "name_enus": "Mageflame Cloak",
+      "quality": 3,
+      "icon": "inv_misc_cape_18",
+      "screenshot": 315293,
+      "jsonequip": {
+         "armor": 41,
+         "avgbuyout": 55000,
+         "displayid": 28616,
+         "dmgrange": 1,
+         "firres": 10,
+         "firsplpwr": 21,
+         "reqlevel": 53,
+         "sellprice": 13585,
+         "slotbak": 16
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13008": {
+      "name_enus": "Dalewind Trousers",
+      "quality": 3,
+      "icon": "inv_pants_06",
+      "screenshot": 186407,
+      "jsonequip": {
+         "armor": 65,
+         "avgbuyout": 37200,
+         "displayid": 28646,
+         "dmgrange": 1,
+         "dura": 65,
+         "int": 9,
+         "reqlevel": 47,
+         "sellprice": 12815,
+         "slotbak": 7,
+         "spi": 25,
+         "sta": 5
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13009": {
+      "name_enus": "Cow King's Hide",
+      "quality": 3,
+      "icon": "inv_chest_leather_06",
+      "screenshot": 72986,
+      "jsonequip": {
+         "arcres": 10,
+         "armor": 148,
+         "displayid": 28700,
+         "dmgrange": 1,
+         "dura": 100,
+         "firres": 10,
+         "frores": 10,
+         "natres": 10,
+         "reqlevel": 46,
+         "sellprice": 15167,
+         "shares": 10,
+         "slotbak": 5,
+         "sta": 10
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13013": {
+      "name_enus": "Elder Wizard's Mantle",
+      "quality": 3,
+      "icon": "inv_shoulder_14",
+      "screenshot": 12947,
+      "jsonequip": {
+         "armor": 60,
+         "avgbuyout": 400000,
+         "displayid": 28643,
+         "dmgrange": 1,
+         "dura": 50,
+         "int": 20,
+         "reqlevel": 51,
+         "sellprice": 12355,
+         "slotbak": 3,
+         "splpwr": 11
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13015": {
+      "name_enus": "Serathil",
+      "quality": 3,
+      "icon": "inv_axe_08",
+      "screenshot": 368614,
+      "jsonequip": {
+         "armor": 100,
+         "avgbuyout": 600000,
+         "displayid": 28748,
+         "dmgmax1": 99,
+         "dmgmin1": 53,
+         "dmgrange": 1,
+         "dmgtype1": 0,
+         "dps": 40,
+         "dura": 90,
+         "mledmgmax": 99,
+         "mledmgmin": 53,
+         "mledps": 40,
+         "mlespeed": 1.9,
+         "reqlevel": 56,
+         "sellprice": 53957,
+         "sheathtype": 3,
+         "slotbak": 13,
+         "speed": 1.9,
+         "str": 9
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13036": {
+      "name_enus": "Assassination Blade",
+      "quality": 3,
+      "icon": "inv_sword_42",
+      "screenshot": 12939,
+      "jsonequip": {
+         "avgbuyout": 490000,
+         "displayid": 25641,
+         "dmgmax1": 132,
+         "dmgmin1": 71,
+         "dmgrange": 1,
+         "dmgtype1": 0,
+         "dps": 37.59,
+         "dura": 90,
+         "mlecritstrkpct": 1,
+         "mledmgmax": 132,
+         "mledmgmin": 71,
+         "mledps": 37.59,
+         "mlespeed": 2.7,
+         "reqlevel": 52,
+         "rgdcritstrkpct": 1,
+         "sellprice": 40988,
+         "sheathtype": 3,
+         "slotbak": 13,
+         "speed": 2.7,
+         "str": 3
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13040": {
+      "name_enus": "Heartseeking Crossbow",
+      "quality": 3,
+      "icon": "inv_weapon_crossbow_04",
+      "screenshot": 463422,
+      "jsonequip": {
+         "agi": 9,
+         "avgbuyout": 299000,
+         "displayid": 22929,
+         "dmgmax1": 108,
+         "dmgmin1": 71,
+         "dmgrange": 1,
+         "dmgtype1": 2,
+         "dps": 28.87,
+         "dura": 75,
+         "reqlevel": 51,
+         "rgddmgmax": 108,
+         "rgddmgmin": 71,
+         "rgddps": 28.87,
+         "rgdspeed": 3.1,
+         "sellprice": 29444,
+         "slotbak": 26,
+         "speed": 3.1,
+         "sta": 4
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13047": {
+      "name_enus": "Twig of the World Tree",
+      "quality": 3,
+      "icon": "inv_mace_13",
+      "screenshot": 278967,
+      "jsonequip": {
+         "avgbuyout": 390000,
+         "displayid": 25626,
+         "dmgmax1": 221,
+         "dmgmin1": 147,
+         "dmgrange": 1,
+         "dmgtype1": 0,
+         "dps": 49.73,
+         "dura": 100,
+         "mledmgmax": 221,
+         "mledmgmin": 147,
+         "mledps": 49.73,
+         "mlespeed": 3.7,
+         "reqlevel": 53,
+         "sellprice": 56588,
+         "sheathtype": 1,
+         "slotbak": 17,
+         "speed": 3.7,
+         "spi": 12,
+         "sta": 21,
+         "str": 14
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13066": {
+      "name_enus": "Wyrmslayer Spaulders",
+      "quality": 3,
+      "icon": "inv_shoulder_24",
+      "screenshot": 8367,
+      "jsonequip": {
+         "agi": 8,
+         "armor": 403,
+         "avgbuyout": 352500,
+         "displayid": 28351,
+         "dmgrange": 1,
+         "dura": 80,
+         "reqlevel": 46,
+         "sellprice": 8997,
+         "slotbak": 3,
+         "sta": 12,
+         "str": 12
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13067": {
+      "name_enus": "Hydralick Armor",
+      "quality": 3,
+      "icon": "inv_chest_plate06",
+      "screenshot": 76713,
+      "jsonequip": {
+         "agi": 8,
+         "armor": 567,
+         "avgbuyout": 150000,
+         "displayid": 28355,
+         "dmgrange": 1,
+         "dura": 135,
+         "firres": 10,
+         "reqlevel": 49,
+         "sellprice": 14341,
+         "slotbak": 5,
+         "sta": 20,
+         "str": 13
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13070": {
+      "name_enus": "Sapphiron's Scale Boots",
+      "quality": 3,
+      "icon": "inv_boots_plate_05",
+      "screenshot": 120132,
+      "jsonequip": {
+         "agi": 9,
+         "armor": 417,
+         "avgbuyout": 449879,
+         "displayid": 28353,
+         "dmgrange": 1,
+         "dura": 65,
+         "reqlevel": 53,
+         "sellprice": 14087,
+         "slotbak": 8,
+         "sta": 14,
+         "str": 14
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13072": {
+      "name_enus": "Stonegrip Gauntlets",
+      "quality": 3,
+      "icon": "inv_gauntlets_03",
+      "screenshot": 125769,
+      "jsonequip": {
+         "armor": 392,
+         "def": 10,
+         "displayid": 28352,
+         "dmgrange": 1,
+         "dura": 45,
+         "reqlevel": 55,
+         "sellprice": 10426,
+         "slotbak": 10,
+         "sta": 14,
+         "str": 9
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13073": {
+      "name_enus": "Mugthol's Helm",
+      "quality": 3,
+      "icon": "inv_helmet_25",
+      "screenshot": 315229,
+      "jsonequip": {
+         "armor": 445,
+         "avgbuyout": 89800,
+         "displayid": 28360,
+         "dmgrange": 1,
+         "dura": 80,
+         "reqlevel": 47,
+         "sellprice": 9080,
+         "slotbak": 1,
+         "spi": 17,
+         "sta": 17,
+         "str": 10
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13075": {
+      "name_enus": "Direwing Legguards",
+      "quality": 3,
+      "icon": "inv_pants_04",
+      "screenshot": 196184,
+      "jsonequip": {
+         "agi": 15,
+         "armor": 575,
+         "displayid": 28716,
+         "dmgrange": 1,
+         "dura": 100,
+         "reqlevel": 58,
+         "sellprice": 22090,
+         "slotbak": 7,
+         "spi": 16,
+         "sta": 16,
+         "str": 15
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13091": {
+      "name_enus": "Medallion of Grand Marshal Morris",
+      "quality": 3,
+      "icon": "inv_jewelry_talisman_08",
+      "screenshot": 0,
+      "jsonequip": {
+         "avgbuyout": 650000,
+         "def": 10,
+         "displayid": 23717,
+         "dmgrange": 1,
+         "reqlevel": 52,
+         "sellprice": 10637,
+         "slotbak": 2,
+         "sta": 7
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13107": {
+      "name_enus": "Magiskull Cuffs",
+      "quality": 3,
+      "icon": "inv_bracer_13",
+      "screenshot": 463423,
+      "jsonequip": {
+         "armor": 38,
+         "displayid": 28619,
+         "dmgrange": 1,
+         "dura": 30,
+         "int": 17,
+         "reqlevel": 57,
+         "sellprice": 11291,
+         "slotbak": 9,
+         "sta": 7
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13111": {
+      "name_enus": "Sandals of the Insurgent",
+      "quality": 3,
+      "icon": "inv_boots_fabric_01",
+      "screenshot": 183600,
+      "jsonequip": {
+         "armor": 107,
+         "avgbuyout": 49799,
+         "displayid": 28664,
+         "dmgrange": 1,
+         "dura": 50,
+         "int": 8,
+         "reqlevel": 49,
+         "sellprice": 13993,
+         "slotbak": 8,
+         "spi": 20
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13113": {
+      "name_enus": "Feathermoon Headdress",
+      "quality": 3,
+      "icon": "inv_helmet_04",
+      "screenshot": 170376,
+      "jsonequip": {
+         "armor": 143,
+         "displayid": 28739,
+         "dmgrange": 1,
+         "dura": 60,
+         "int": 20,
+         "reqlevel": 58,
+         "sellprice": 20546,
+         "slotbak": 1,
+         "spi": 21,
+         "sta": 13
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13116": {
+      "name_enus": "Spaulders of the Unseen",
+      "quality": 3,
+      "icon": "inv_shoulder_18",
+      "screenshot": 291043,
+      "jsonequip": {
+         "agi": 22,
+         "armor": 129,
+         "avgbuyout": 350000,
+         "displayid": 28709,
+         "dmgrange": 1,
+         "dura": 60,
+         "int": 4,
+         "reqlevel": 56,
+         "sellprice": 19370,
+         "slotbak": 3,
+         "sta": 7
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13118": {
+      "name_enus": "Serpentine Sash",
+      "quality": 3,
+      "icon": "inv_belt_25",
+      "screenshot": 10921,
+      "jsonequip": {
+         "agi": 14,
+         "armor": 92,
+         "avgbuyout": 140888,
+         "displayid": 28369,
+         "dmgrange": 1,
+         "dura": 35,
+         "reqlevel": 52,
+         "sellprice": 10601,
+         "slotbak": 6,
+         "sta": 14,
+         "str": 9
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13120": {
+      "name_enus": "Deepfury Bracers",
+      "quality": 3,
+      "icon": "inv_bracer_07",
+      "screenshot": 55307,
+      "jsonequip": {
+         "agi": 15,
+         "armor": 69,
+         "avgbuyout": 508950,
+         "displayid": 28373,
+         "dmgrange": 1,
+         "dura": 35,
+         "reqlevel": 50,
+         "sellprice": 9505,
+         "slotbak": 9,
+         "sta": 4,
+         "str": 4
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13123": {
+      "name_enus": "Dreamwalker Armor",
+      "quality": 3,
+      "icon": "inv_chest_chain_06",
+      "screenshot": 310019,
+      "jsonequip": {
+         "armor": 365,
+         "displayid": 28663,
+         "dmgrange": 1,
+         "dura": 120,
+         "int": 20,
+         "reqlevel": 57,
+         "sellprice": 33387,
+         "slotbak": 5,
+         "spi": 20,
+         "sta": 17
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13125": {
+      "name_enus": "Elven Chain Boots",
+      "quality": 3,
+      "icon": "inv_boots_01",
+      "screenshot": 237853,
+      "jsonequip": {
+         "agi": 18,
+         "armor": 206,
+         "avgbuyout": 79500,
+         "displayid": 28439,
+         "dmgrange": 1,
+         "dura": 60,
+         "reqlevel": 45,
+         "sellprice": 12954,
+         "slotbak": 8,
+         "spi": 7,
+         "sta": 3
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13126": {
+      "name_enus": "Battlecaller Gauntlets",
+      "quality": 3,
+      "icon": "inv_gauntlets_10",
+      "screenshot": 376492,
+      "jsonequip": {
+         "armor": 198,
+         "displayid": 28434,
+         "dmgrange": 1,
+         "dura": 40,
+         "reqlevel": 48,
+         "sellprice": 10374,
+         "slotbak": 10,
+         "spi": 15,
+         "sta": 9,
+         "str": 8
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13130": {
+      "name_enus": "Windrunner Legguards",
+      "quality": 3,
+      "icon": "inv_pants_03",
+      "screenshot": 217147,
+      "jsonequip": {
+         "agi": 27,
+         "armor": 291,
+         "avgbuyout": 189879,
+         "displayid": 28447,
+         "dmgrange": 1,
+         "dura": 90,
+         "reqlevel": 51,
+         "sellprice": 25065,
+         "slotbak": 7,
+         "spi": 11
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13133": {
+      "name_enus": "Drakesfire Epaulets",
+      "quality": 3,
+      "icon": "inv_shoulder_23",
+      "screenshot": 94658,
+      "jsonequip": {
+         "armor": 270,
+         "displayid": 28665,
+         "dmgrange": 1,
+         "dura": 70,
+         "firres": 10,
+         "int": 14,
+         "reqlevel": 56,
+         "sellprice": 23083,
+         "slotbak": 3,
+         "spi": 15,
+         "sta": 5
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13135": {
+      "name_enus": "Lordly Armguards",
+      "quality": 3,
+      "icon": "inv_bracer_17",
+      "screenshot": 76609,
+      "jsonequip": {
+         "agi": 7,
+         "armor": 153,
+         "avgbuyout": 450000,
+         "displayid": 28668,
+         "dmgrange": 1,
+         "dura": 40,
+         "int": 7,
+         "reqlevel": 54,
+         "sellprice": 14001,
+         "slotbak": 9,
+         "spi": 8,
+         "sta": 8,
+         "str": 7
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13144": {
+      "name_enus": "Serenity Belt",
+      "quality": 3,
+      "icon": "inv_belt_07",
+      "screenshot": 314511,
+      "jsonequip": {
+         "armor": 43,
+         "avgbuyout": 52495,
+         "displayid": 28649,
+         "dmgrange": 1,
+         "dura": 30,
+         "int": 17,
+         "reqlevel": 48,
+         "sellprice": 6865,
+         "slotbak": 6,
+         "sta": 7
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13146": {
+      "name_enus": "Shell Launcher Shotgun",
+      "quality": 3,
+      "icon": "inv_weapon_rifle_08",
+      "screenshot": 71233,
+      "jsonequip": {
+         "avgbuyout": 80000,
+         "displayid": 28743,
+         "dmgmax1": 89,
+         "dmgmin1": 48,
+         "dmgrange": 1,
+         "dmgtype1": 3,
+         "dps": 29.78,
+         "dura": 75,
+         "reqlevel": 53,
+         "rgddmgmax": 89,
+         "rgddmgmin": 48,
+         "rgddps": 29.78,
+         "rgdspeed": 2.3,
+         "sellprice": 34704,
+         "slotbak": 26,
+         "speed": 2.3
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "13487": {
+      "name_enus": "Recipe: Transmute Water to Undeath",
+      "quality": 2,
+      "icon": "inv_scroll_06",
+      "screenshot": 0,
+      "jsonequip": {
+         "displayid": 15274,
+         "dmgrange": 1,
+         "reqskill": 171,
+         "reqskillrank": 275,
+         "sellprice": 3750
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "14982": {
+      "name_enus": "Exalted Shield",
+      "quality": 2,
+      "icon": "inv_shield_02",
+      "screenshot": 181710,
+      "jsonequip": {
+         "armor": 1975,
+         "blockamount": 38,
+         "displayid": 26911,
+         "dmgrange": 1,
+         "dura": 85,
+         "reqlevel": 60,
+         "sellprice": 34119,
+         "sheathtype": 4,
+         "slotbak": 14
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "15221": {
+      "name_enus": "Holy War Sword",
+      "quality": 2,
+      "icon": "inv_sword_06",
+      "screenshot": 168130,
+      "jsonequip": {
+         "displayid": 28552,
+         "dmgmax1": 111,
+         "dmgmin1": 59,
+         "dmgrange": 1,
+         "dmgtype1": 0,
+         "dps": 38.64,
+         "dura": 75,
+         "mledmgmax": 111,
+         "mledmgmin": 59,
+         "mledps": 38.64,
+         "mlespeed": 2.2,
+         "reqlevel": 60,
+         "sellprice": 51946,
+         "sheathtype": 3,
+         "slotbak": 13,
+         "speed": 2.2
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "15229": {
+      "name_enus": "Blesswind Hammer",
+      "quality": 2,
+      "icon": "inv_hammer_02",
+      "screenshot": 69988,
+      "jsonequip": {
+         "avgbuyout": 199999,
+         "displayid": 19735,
+         "dmgmax1": 90,
+         "dmgmin1": 48,
+         "dmgrange": 1,
+         "dmgtype1": 0,
+         "dps": 32.86,
+         "dura": 75,
+         "mledmgmax": 90,
+         "mledmgmin": 48,
+         "mledps": 32.86,
+         "mlespeed": 2.1,
+         "reqlevel": 50,
+         "sellprice": 31924,
+         "sheathtype": 3,
+         "slotbak": 13,
+         "speed": 2.1
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "15247": {
+      "name_enus": "Bloodstrike Dagger",
+      "quality": 2,
+      "icon": "inv_weapon_shortblade_03",
+      "screenshot": 117309,
+      "jsonequip": {
+         "displayid": 28327,
+         "dmgmax1": 85,
+         "dmgmin1": 45,
+         "dmgrange": 1,
+         "dmgtype1": 0,
+         "dps": 38.24,
+         "dura": 55,
+         "mledmgmax": 85,
+         "mledmgmin": 45,
+         "mledps": 38.24,
+         "mlespeed": 1.7,
+         "reqlevel": 59,
+         "sellprice": 50576,
+         "sheathtype": 3,
+         "slotbak": 13,
+         "speed": 1.7
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "15258": {
+      "name_enus": "Divine Warblade",
+      "quality": 2,
+      "icon": "inv_sword_26",
+      "screenshot": 180650,
+      "jsonequip": {
+         "displayid": 28517,
+         "dmgmax1": 164,
+         "dmgmin1": 109,
+         "dmgrange": 1,
+         "dmgtype1": 0,
+         "dps": 50.56,
+         "dura": 85,
+         "mledmgmax": 164,
+         "mledmgmin": 109,
+         "mledps": 50.56,
+         "mlespeed": 2.7,
+         "reqlevel": 60,
+         "sellprice": 64185,
+         "sheathtype": 1,
+         "slotbak": 17,
+         "speed": 2.7
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "15273": {
+      "name_enus": "Death Striker",
+      "quality": 2,
+      "icon": "inv_axe_18",
+      "screenshot": 445059,
+      "jsonequip": {
+         "displayid": 28349,
+         "dmgmax1": 165,
+         "dmgmin1": 109,
+         "dmgrange": 1,
+         "dmgtype1": 0,
+         "dps": 48.93,
+         "dura": 85,
+         "mledmgmax": 165,
+         "mledmgmin": 109,
+         "mledps": 48.93,
+         "mlespeed": 2.8,
+         "reqlevel": 58,
+         "sellprice": 57108,
+         "sheathtype": 1,
+         "slotbak": 17,
+         "speed": 2.8
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "15278": {
+      "name_enus": "Solstice Staff",
+      "quality": 2,
+      "icon": "inv_staff_03",
+      "screenshot": 67077,
+      "jsonequip": {
+         "displayid": 28502,
+         "dmgmax1": 146,
+         "dmgmin1": 97,
+         "dmgrange": 1,
+         "dmgtype1": 0,
+         "dps": 46.73,
+         "dura": 85,
+         "mledmgmax": 146,
+         "mledmgmin": 97,
+         "mledps": 46.73,
+         "mlespeed": 2.6,
+         "reqlevel": 55,
+         "sellprice": 50285,
+         "sheathtype": 2,
+         "slotbak": 17,
+         "speed": 2.6
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "15283": {
+      "name_enus": "Lunar Wand",
+      "quality": 2,
+      "icon": "inv_staff_06",
+      "screenshot": 121777,
+      "jsonequip": {
+         "displayid": 28577,
+         "dmgrange": 1,
+         "dps": 56.76,
+         "dura": 55,
+         "reqlevel": 59,
+         "sellprice": 37365,
+         "slotbak": 26,
+         "speed": 1.7
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "15325": {
+      "name_enus": "Sharpshooter Harquebus",
+      "quality": 2,
+      "icon": "inv_weapon_rifle_06",
+      "screenshot": 463416,
+      "jsonequip": {
+         "displayid": 8258,
+         "dmgmax1": 80,
+         "dmgmin1": 43,
+         "dmgrange": 1,
+         "dmgtype1": 3,
+         "dps": 27.95,
+         "dura": 65,
+         "reqlevel": 55,
+         "rgddmgmax": 80,
+         "rgddmgmin": 43,
+         "rgddps": 27.95,
+         "rgdspeed": 2.2,
+         "sellprice": 31784,
+         "slotbak": 26,
+         "speed": 2.2
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "15410": {
+      "name_enus": "Scale of Onyxia",
+      "quality": 3,
+      "icon": "inv_misc_monsterscales_07",
+      "screenshot": 0,
+      "jsonequip": {
+         "displayid": 20914,
+         "dmgrange": 1,
+         "sellprice": 5000
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "15731": {
+      "name_enus": "Pattern: Runic Leather Gauntlets",
+      "quality": 2,
+      "icon": "inv_scroll_06",
+      "screenshot": 180640,
+      "jsonequip": {
+         "avgbuyout": 26200,
+         "displayid": 15274,
+         "dmgrange": 1,
+         "reqskill": 165,
+         "reqskillrank": 270,
+         "sellprice": 3500
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "15757": {
+      "name_enus": "Pattern: Wicked Leather Pants",
+      "quality": 2,
+      "icon": "inv_scroll_06",
+      "screenshot": 0,
+      "jsonequip": {
+         "avgbuyout": 22000,
+         "displayid": 15274,
+         "dmgrange": 1,
+         "reqskill": 165,
+         "reqskillrank": 290,
+         "sellprice": 5500
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "15942": {
+      "name_enus": "Master's Rod",
+      "quality": 2,
+      "icon": "inv_staff_07",
+      "screenshot": 430366,
+      "jsonequip": {
+         "displayid": 28478,
+         "dmgrange": 1,
+         "reqlevel": 60,
+         "sellprice": 12757,
+         "sheathtype": 7,
+         "slotbak": 23
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "16900": {
+      "name_enus": "Stormrage Cover",
+      "quality": 4,
+      "icon": "inv_helmet_09",
+      "screenshot": 49935,
+      "jsonequip": {
+         "armor": 183,
+         "classes": 1024,
+         "displayid": 33655,
+         "dmgrange": 1,
+         "dura": 70,
+         "frores": 10,
+         "int": 31,
+         "itemset": 214,
+         "manargn": 6,
+         "reqlevel": 60,
+         "sellprice": 54111,
+         "shares": 10,
+         "slotbak": 1,
+         "spi": 12,
+         "splheal": 29,
+         "sta": 20
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "16908": {
+      "name_enus": "Bloodfang Hood",
+      "quality": 4,
+      "icon": "inv_helmet_41",
+      "screenshot": 100830,
+      "jsonequip": {
+         "agi": 27,
+         "armor": 183,
+         "classes": 8,
+         "displayid": 33743,
+         "dmgrange": 1,
+         "dura": 70,
+         "frores": 10,
+         "itemset": 213,
+         "mlecritstrkpct": 1,
+         "reqlevel": 60,
+         "rgdcritstrkpct": 1,
+         "sellprice": 55707,
+         "shares": 10,
+         "slotbak": 1,
+         "sta": 25,
+         "str": 19
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "16914": {
+      "name_enus": "Netherwind Crown",
+      "quality": 4,
+      "icon": "inv_helmet_70",
+      "screenshot": 4695,
+      "jsonequip": {
+         "armor": 94,
+         "classes": 128,
+         "displayid": 34218,
+         "dmgrange": 1,
+         "dura": 60,
+         "frores": 10,
+         "int": 26,
+         "itemset": 210,
+         "manargn": 4,
+         "reqlevel": 60,
+         "sellprice": 42324,
+         "shares": 10,
+         "slotbak": 1,
+         "spi": 7,
+         "splpwr": 32,
+         "sta": 17
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "16921": {
+      "name_enus": "Halo of Transcendence",
+      "quality": 4,
+      "icon": "inv_helmet_24",
+      "screenshot": 122916,
+      "jsonequip": {
+         "armor": 94,
+         "classes": 16,
+         "displayid": 34233,
+         "dmgrange": 1,
+         "dura": 60,
+         "firres": 10,
+         "frores": 10,
+         "int": 27,
+         "itemset": 211,
+         "reqlevel": 60,
+         "sellprice": 43440,
+         "slotbak": 1,
+         "spi": 22,
+         "splheal": 48,
+         "sta": 17
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "16929": {
+      "name_enus": "Nemesis Skullcap",
+      "quality": 4,
+      "icon": "inv_helmet_08",
+      "screenshot": 458337,
+      "jsonequip": {
+         "armor": 94,
+         "classes": 256,
+         "displayid": 34369,
+         "dmgrange": 1,
+         "dura": 60,
+         "frores": 10,
+         "healthrgn": 4,
+         "int": 16,
+         "itemset": 212,
+         "reqlevel": 60,
+         "sellprice": 41521,
+         "shares": 10,
+         "slotbak": 1,
+         "spi": 6,
+         "splpwr": 32,
+         "sta": 26
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "16939": {
+      "name_enus": "Dragonstalker's Helm",
+      "quality": 4,
+      "icon": "inv_helmet_05",
+      "screenshot": 305897,
+      "jsonequip": {
+         "agi": 27,
+         "armor": 392,
+         "classes": 4,
+         "displayid": 34367,
+         "dmgrange": 1,
+         "dura": 85,
+         "frores": 10,
+         "int": 16,
+         "itemset": 215,
+         "mlecritstrkpct": 1,
+         "reqlevel": 60,
+         "rgdcritstrkpct": 1,
+         "sellprice": 64672,
+         "shares": 10,
+         "slotbak": 1,
+         "spi": 8,
+         "sta": 26
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "16947": {
+      "name_enus": "Helmet of Ten Storms",
+      "quality": 4,
+      "icon": "inv_helmet_69",
+      "screenshot": 2364,
+      "jsonequip": {
+         "armor": 392,
+         "classes": 64,
+         "displayid": 34217,
+         "dmgrange": 1,
+         "dura": 85,
+         "frores": 10,
+         "int": 24,
+         "itemset": 216,
+         "reqlevel": 60,
+         "sellprice": 68314,
+         "shares": 10,
+         "slotbak": 1,
+         "spi": 12,
+         "splcritstrkpct": 1,
+         "splheal": 18,
+         "splpwr": 9,
+         "sta": 20
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "16955": {
+      "name_enus": "Judgement Crown",
+      "quality": 4,
+      "icon": "inv_helmet_74",
+      "screenshot": 78458,
+      "jsonequip": {
+         "armor": 696,
+         "classes": 2,
+         "displayid": 34216,
+         "dmgrange": 1,
+         "dura": 100,
+         "frores": 10,
+         "int": 23,
+         "itemset": 217,
+         "reqlevel": 60,
+         "sellprice": 42472,
+         "shares": 10,
+         "slotbak": 1,
+         "spi": 6,
+         "splpwr": 32,
+         "sta": 18,
+         "str": 17
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "16963": {
+      "name_enus": "Helm of Wrath",
+      "quality": 4,
+      "icon": "inv_helmet_71",
+      "screenshot": 4289,
+      "jsonequip": {
+         "armor": 696,
+         "classes": 1,
+         "def": 11,
+         "displayid": 34215,
+         "dmgrange": 1,
+         "dura": 100,
+         "frores": 10,
+         "itemset": 218,
+         "reqlevel": 60,
+         "sellprice": 44900,
+         "shares": 10,
+         "slotbak": 1,
+         "sta": 40,
+         "str": 17
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17064": {
+      "name_enus": "Shard of the Scale",
+      "quality": 4,
+      "icon": "inv_misc_monsterscales_15",
+      "screenshot": 0,
+      "jsonequip": {
+         "displayid": 26374,
+         "dmgrange": 1,
+         "itemset": 241,
+         "manargn": 16,
+         "maxcount": 1,
+         "reqlevel": 60,
+         "sellprice": 45914,
+         "slotbak": 12
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17067": {
+      "name_enus": "Ancient Cornerstone Grimoire",
+      "quality": 4,
+      "icon": "inv_misc_book_07",
+      "screenshot": 68785,
+      "jsonequip": {
+         "cooldown": 900000,
+         "displayid": 29717,
+         "dmgrange": 1,
+         "int": 15,
+         "reqlevel": 60,
+         "sellprice": 75452,
+         "sheathtype": 7,
+         "slotbak": 23,
+         "spi": 11,
+         "sta": 10
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17068": {
+      "name_enus": "Deathbringer",
+      "quality": 4,
+      "icon": "inv_axe_09",
+      "screenshot": 2190,
+      "jsonequip": {
+         "displayid": 29161,
+         "dmgmax1": 213,
+         "dmgmin1": 114,
+         "dmgrange": 1,
+         "dmgtype1": 0,
+         "dps": 56.38,
+         "dura": 105,
+         "mledmgmax": 213,
+         "mledmgmin": 114,
+         "mledps": 56.38,
+         "mlespeed": 2.9,
+         "reqlevel": 60,
+         "sellprice": 134832,
+         "sheathtype": 3,
+         "slotbak": 13,
+         "speed": 2.9
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17075": {
+      "name_enus": "Vis'kag the Bloodletter",
+      "quality": 4,
+      "icon": "inv_sword_18",
+      "screenshot": 89728,
+      "jsonequip": {
+         "displayid": 32197,
+         "dmgmax1": 187,
+         "dmgmin1": 100,
+         "dmgrange": 1,
+         "dmgtype1": 0,
+         "dps": 55.19,
+         "dura": 105,
+         "maxcount": 1,
+         "mledmgmax": 187,
+         "mledmgmin": 100,
+         "mledps": 55.19,
+         "mlespeed": 2.6,
+         "reqlevel": 60,
+         "sellprice": 135266,
+         "sheathtype": 3,
+         "slotbak": 13,
+         "speed": 2.6
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17078": {
+      "name_enus": "Sapphiron Drape",
+      "quality": 4,
+      "icon": "inv_misc_cape_16",
+      "screenshot": 2980,
+      "jsonequip": {
+         "arcres": 6,
+         "armor": 55,
+         "displayid": 29719,
+         "dmgrange": 1,
+         "frores": 6,
+         "int": 17,
+         "reqlevel": 60,
+         "sellprice": 37203,
+         "slotbak": 16,
+         "splpwr": 14,
+         "sta": 10
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17413": {
+      "name_enus": "Codex: Prayer of Fortitude",
+      "quality": 3,
+      "icon": "inv_misc_book_09",
+      "screenshot": 0,
+      "jsonequip": {
+         "avgbuyout": 25000,
+         "classes": 16,
+         "displayid": 1143,
+         "dmgrange": 1,
+         "reqlevel": 48,
+         "sellprice": 7750
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17414": {
+      "name_enus": "Codex: Prayer of Fortitude II",
+      "quality": 3,
+      "icon": "inv_misc_book_09",
+      "screenshot": 0,
+      "jsonequip": {
+         "avgbuyout": 24000,
+         "classes": 16,
+         "displayid": 1143,
+         "dmgrange": 1,
+         "reqlevel": 60,
+         "sellprice": 14750
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17682": {
+      "name_enus": "Book: Gift of the Wild",
+      "quality": 3,
+      "icon": "inv_misc_book_11",
+      "screenshot": 0,
+      "jsonequip": {
+         "avgbuyout": 8745,
+         "classes": 1024,
+         "displayid": 1317,
+         "dmgrange": 1,
+         "reqlevel": 50,
+         "sellprice": 8750
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17683": {
+      "name_enus": "Book: Gift of the Wild II",
+      "quality": 3,
+      "icon": "inv_misc_book_11",
+      "screenshot": 0,
+      "jsonequip": {
+         "avgbuyout": 17897,
+         "classes": 1024,
+         "displayid": 1317,
+         "dmgrange": 1,
+         "reqlevel": 60,
+         "sellprice": 14750
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17962": {
+      "name_enus": "Blue Sack of Gems",
+      "quality": 2,
+      "icon": "inv_misc_bag_10_blue",
+      "screenshot": 0,
+      "jsonequip": {
+         "displayid": 2588,
+         "dmgrange": 1,
+         "sellprice": 4762
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17963": {
+      "name_enus": "Green Sack of Gems",
+      "quality": 2,
+      "icon": "inv_misc_bag_10_green",
+      "screenshot": 0,
+      "jsonequip": {
+         "displayid": 3568,
+         "dmgrange": 1,
+         "sellprice": 213
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17964": {
+      "name_enus": "Gray Sack of Gems",
+      "quality": 2,
+      "icon": "inv_misc_bag_10_black",
+      "screenshot": 0,
+      "jsonequip": {
+         "displayid": 1282,
+         "dmgrange": 1,
+         "sellprice": 5512
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17965": {
+      "name_enus": "Yellow Sack of Gems",
+      "quality": 2,
+      "icon": "inv_misc_bag_10",
+      "screenshot": 0,
+      "jsonequip": {
+         "displayid": 1168,
+         "dmgrange": 1,
+         "sellprice": 213
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17966": {
+      "name_enus": "Onyxia Hide Backpack",
+      "quality": 2,
+      "icon": "inv_misc_bag_22",
+      "screenshot": 0,
+      "jsonequip": {
+         "displayid": 30271,
+         "dmgrange": 1,
+         "sellprice": 8750,
+         "slotbak": 18
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "17969": {
+      "name_enus": "Red Sack of Gems",
+      "quality": 2,
+      "icon": "inv_misc_bag_10_red",
+      "screenshot": 0,
+      "jsonequip": {
+         "displayid": 4056,
+         "dmgrange": 1,
+         "sellprice": 4773
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "18205": {
+      "name_enus": "Eskhandar's Collar",
+      "quality": 4,
+      "icon": "inv_belt_12",
+      "screenshot": 0,
+      "jsonequip": {
+         "displayid": 16132,
+         "dmgrange": 1,
+         "dodgepct": 1,
+         "itemset": 261,
+         "maxcount": 1,
+         "mlecritstrkpct": 1,
+         "reqlevel": 60,
+         "rgdcritstrkpct": 1,
+         "sellprice": 33287,
+         "slotbak": 2,
+         "sta": 17
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "18422": {
+      "name_enus": "Head of Onyxia",
+      "quality": 4,
+      "icon": "inv_misc_head_dragon_01",
+      "screenshot": 79841,
+      "jsonequip": {
+         "displayid": 30794,
+         "dmgrange": 1,
+         "maxcount": 1,
+         "reqlevel": 60
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "18423": {
+      "name_enus": "Head of Onyxia",
+      "quality": 4,
+      "icon": "inv_misc_head_dragon_01",
+      "screenshot": 72394,
+      "jsonequip": {
+         "displayid": 30794,
+         "dmgrange": 1,
+         "maxcount": 1,
+         "reqlevel": 60
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "18600": {
+      "name_enus": "Tome of Arcane Brilliance",
+      "quality": 3,
+      "icon": "inv_misc_book_07",
+      "screenshot": 170769,
+      "jsonequip": {
+         "avgbuyout": 119999,
+         "classes": 128,
+         "displayid": 1103,
+         "dmgrange": 1,
+         "reqlevel": 56,
+         "sellprice": 12000
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "18705": {
+      "name_enus": "Mature Black Dragon Sinew",
+      "quality": 4,
+      "icon": "spell_holy_dispelmagic",
+      "screenshot": 0,
+      "jsonequip": {
+         "classes": 4,
+         "displayid": 31146,
+         "dmgrange": 1,
+         "maxcount": 1,
+         "reqlevel": 60
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "18813": {
+      "name_enus": "Ring of Binding",
+      "quality": 4,
+      "icon": "inv_jewelry_ring_13",
+      "screenshot": 0,
+      "jsonequip": {
+         "arcres": 10,
+         "armor": 60,
+         "def": 4,
+         "displayid": 9823,
+         "dmgrange": 1,
+         "firres": 10,
+         "frores": 10,
+         "maxcount": 1,
+         "natres": 10,
+         "reqlevel": 60,
+         "sellprice": 89103,
+         "shares": 10,
+         "slotbak": 11
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "21106": {
+      "name_enus": "Draconic for Dummies",
+      "quality": 1,
+      "icon": "inv_misc_stonetablet_03",
+      "screenshot": 102164,
+      "jsonequip": {
+         "displayid": 33423,
+         "dmgrange": 1,
+         "maxcount": 1
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "22393": {
+      "name_enus": "Codex: Prayer of Shadow Protection",
+      "quality": 3,
+      "icon": "inv_misc_book_09",
+      "screenshot": 0,
+      "jsonequip": {
+         "classes": 16,
+         "displayid": 1143,
+         "dmgrange": 1,
+         "reqlevel": 60,
+         "sellprice": 14750
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "22890": {
+      "name_enus": "Tome of Frost Ward V",
+      "quality": 3,
+      "icon": "inv_misc_book_07",
+      "screenshot": 0,
+      "jsonequip": {
+         "classes": 128,
+         "displayid": 1103,
+         "dmgrange": 1,
+         "reqlevel": 60,
+         "sellprice": 10000
+      },
+      "attainable": 0,
+      "flags2": 8192
+   },
+   "22891": {
+      "name_enus": "Grimoire of Shadow Ward IV",
+      "quality": 3,
+      "icon": "inv_misc_book_07",
+      "screenshot": 0,
+      "jsonequip": {
+         "classes": 256,
+         "displayid": 1103,
+         "dmgrange": 1,
+         "reqlevel": 60,
+         "sellprice": 10000
+      },
+      "attainable": 0,
+      "flags2": 8192
+   }
+}
