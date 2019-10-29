@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Blood Legion Loot Management System</title>
+  <% include ../partials/header.ejs %>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body style="background-image:url(images/background.jpg); background-repeat: repeat-y; background-position:center;">
+  <% include ../partials/nav.ejs %>
+  <div class="container" id="member">
+      <div class="row">
+          <div class="col-md-5">
+              <form>
+                  <div>
+                    <label>Name: </label>
+                    <input name="name" type="text" placeholder="Name">
+                  </div>
+                  <br>
+                  <div>
+                    <label>Class: </label>
+                    <select name="class">
+                      <option value="1">Druid</option>
+                      <option value="2">Hunter</option>
+                      <option value="3">Mage</option>
+                      <option value="4">Paladin</option>
+                      <option value="5">Priest</option>
+                      <option value="6">Rogue</option>
+                      <option value="7">Warlock</option>
+                      <option value="8">Warrior</option>
+                    </select>
+                  </div>
+                  <br>
+                  <div>
+                    <label>Rank: </label>
+                    <select name="rank">
+                      <option value="1">Raider</option>
+                      <option value="2">Friend & Family</option>
+                      <option value="3">Recruit</option>
+                    </select>
+                  </div>
+                  <br>
+                  <div><label>Date Joined:</label>
+                    <input type="date"></div>
+                  <div><button onclick="addmember()">Add Member</button></div>
+                </form>
+          </div>
+          <div class="col-md-6" id="raid">
+              <form>
+                  <div><label>Name: </label>
+                    <input name="raidname" type="text" placeholder="Raid Name"></div>
+                </form>
+          </div>
+          <div class="col-md-11" id="items"></div>
+      </div>
+  </div>
+</body>
+
+</html>

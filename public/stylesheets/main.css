@@ -25,6 +25,42 @@
     .jumbotron .lang-logo img {
       max-width: 100%; }
 
+.alignTop {
+  vertical-align: top;
+}
+
+.formText {
+  vertical-align: center;
+  text-align: right;
+  color: #000000;
+}
+
+input {
+  color: #000000;
+  float: right;
+  
+}
+
+label {
+  font-size: 15px;
+}
+
+select {
+  color: #000000;
+  float: right;
+  height: 25px;
+}
+
+button {
+  color: white;
+  background-color: #666666;
+  border-color: white;
+}
+
+#raid {
+  float: left;
+}
+
       body {
         background-color:#000000;
         color: #FFFFFF;
