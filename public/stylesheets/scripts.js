@@ -1,14 +1,14 @@
 function addmember() {
-	var name = $("#name").val();
-    var Class = $("#class").val();
+	var pName = $("#pName").val();
+    var pClass = $("#pClass").val();
     var rank = $("#rank").val();
-	var date = $("#date").val();
+	var joinDate = $("#joinDate").val();
 
 	var params = {
-		name: name,
-        Class: Class,
+		pName: pName,
+        pClass: pClass,
         rank: rank,
-        date: date
+        joinDate: joinDate
    };
 
 	$.post("/addmember", params, function(result) {
