@@ -38,7 +38,7 @@ express()
     client.release();
   })
   .post('/addraid', async (req, res) => {
-    var rNname = req.body.rName;
+    var rName = req.body.rName;
     var rDate = req.body.rDate;
     
     var insert = 'INSERT INTO raids (raid_name,date) VALUES($1,$2)';
