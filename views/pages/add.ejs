@@ -12,14 +12,15 @@
   <div class="container" id="member">
       <div class="row">
           <div class="col-md-5">
+            <div>Add New Member</div>
               <form>
                   <div>
-                    <label>Name: </label>
+                    <label for="pName">Name: </label>
                     <input id="pName" name="name" type="text" placeholder="Name">
                   </div>
                   <br>
                   <div>
-                    <label>Class: </label>
+                    <label for="pClass">Class: </label>
                     <select id="pClass" name="pClass">
                       <option value="1">Druid</option>
                       <option value="2">Hunter</option>
@@ -33,7 +34,7 @@
                   </div>
                   <br>
                   <div>
-                    <label>Rank: </label>
+                    <label for="rank">Rank: </label>
                     <select id="rank" name="rank">
                       <option value="1">Raider</option>
                       <option value="2">Friend & Family</option>
@@ -41,12 +42,14 @@
                     </select>
                   </div>
                   <br>
-                  <div><label>Date Joined:</label>
+                  <div><label for="joinDate">Date Joined:</label>
                     <input id="joinDate" name="joinDate" type="date"></div>
+                  <!--<div><input type="submit" value="Submit"></div>-->
                   <div><button onclick="addmember()">Add Member</button></div>
                 </form>
           </div>
           <div class="col-md-6" id="raid">
+              <div>Add New Raid</div>
               <form>
                   <div><label>Name: </label>
                     <input name="raidname" type="text" placeholder="Raid Name"></div>

@@ -2,7 +2,9 @@ function addmember() {
 	var pName = $("#pName").val();
     var pClass = $("#pClass").val();
     var rank = $("#rank").val();
-	var joinDate = $("#joinDate").val();
+    var joinDate = $("#joinDate").val();
+    
+    console.log(pName + pClass + rank + joinDate);
 
 	var params = {
 		pName: pName,
