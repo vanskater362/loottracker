@@ -27,16 +27,14 @@ express()
     
     var insert = 'INSERT INTO members (pName, pClass, rank, joinDate) VALUES(default,$1,$2,$3,$4,TRUE)';
     const client = await pool.connect()
-    client.query(insert, function(err, result){
+    client.query(insert);/*, function(err, result){
       if (!result){
-        result = {success: false, username: username};
+        console.log("Error");
       } else {
-        var playerid = result.rows[0].id;
-        client.query(insertR, [playerid]);
-        result = {success: true, username: username};
+        console.log("Success");
         client.release();
       }
-    });
+    });*/
     client.release();
   })
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
