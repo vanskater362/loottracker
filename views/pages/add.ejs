@@ -51,8 +51,11 @@
           <div class="col-md-6" id="raid">
               <div>Add New Raid</div>
               <form>
-                  <div><label>Name: </label>
-                    <input name="raidname" type="text" placeholder="Raid Name"></div>
+                  <div><label for="raidname">Raid Name: </label>
+                    <input id="rName" name="raidname" type="text" placeholder="Raid Name"></div>
+                    <div><label for="joinDate">Raid Date: </label>
+                      <input id="rDate" name="joinDate" type="date"></div>
+                    <div><button onclick="addraid()">Creat New Raid</button></div>
                 </form>
           </div>
           <div class="col-md-11" id="items"></div>
