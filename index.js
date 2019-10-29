@@ -37,4 +37,20 @@ express()
     });*/
     client.release();
   })
+  .post('/addraid', async (req, res) => {
+    var rNname = req.body.rName;
+    var rDate = req.body.rDate;
+    
+    var insert = 'INSERT INTO raids (raid_name,date) VALUES($1,$2)';
+    const client = await pool.connect()
+    client.query(insert, [rName,rDate]);/*, function(err, result){
+      if (!result){
+        console.log("Error");
+      } else {
+        console.log("Success");
+        client.release();
+      }
+    });*/
+    client.release();
+  })
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
