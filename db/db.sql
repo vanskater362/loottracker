@@ -86,7 +86,6 @@ CREATE TABLE "public"."members"
  "joined" date NOT NULL,
  "class"  int NOT NULL,
  "rank"   int NOT NULL,
- "show"   boolean NOT NULL,
  CONSTRAINT "FK_198" FOREIGN KEY ( "class" ) REFERENCES "public"."class" ( "id" ),
  CONSTRAINT "FK_201" FOREIGN KEY ( "rank" ) REFERENCES "public"."rank" ( "id" )
 );
@@ -128,7 +127,7 @@ VALUES  (DEFAULT, 'Raider'),
         (DEFAULT, 'Removed');
 
 INSERT INTO members (id, name, joined, class, rank, show)
-VALUES  (DEFAULT, 'Van', to_date('01 Oct 2019', 'DD Mon YYYY'), (SELECT id FROM class WHERE id=8), (SELECT id FROM rank WHERE id=2), TRUE); 
+VALUES  (DEFAULT, 'Van', to_date('01 Oct 2019', 'DD Mon YYYY'), (SELECT id FROM class WHERE id=8), (SELECT id FROM rank WHERE id=2)); 
 
 INSERT INTO items (id, item_name, zone, wowhead_id)
 VALUES  (DEFAULT, 'Alcor''s Sunrazor', 'Molten Core', 14555);
