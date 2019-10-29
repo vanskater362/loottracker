@@ -20,14 +20,14 @@ express()
   .get('/members', (req, res) => res.render('pages/members'))
   .get('/admin', (req, res) => res.render('pages/add'))
   .post('/addmember', async (req, res) => {
-    var pNname = req.body.pName;
+    var pName = req.body.pName;
     var pClass = req.body.pClass;
     var rank = req.body.rank;
     var joinDate = req.body.joinDate;
     
     var insert = 'INSERT INTO members (name, class, rank, joined) VALUES($1,$2,$3,$4)';
     const client = await pool.connect()
-    client.query(insert, [pNname, pClass, rank, joinDate]);/*, function(err, result){
+    client.query(insert, [pName, pClass, rank, joinDate]);/*, function(err, result){
       if (!result){
         console.log("Error");
       } else {
