@@ -21,7 +21,9 @@ express()
     var rank = req.body.rank;
     var date = req.body.date;
     
-    var insertP = 'INSERT INTO members (name, Class, rank, date) VALUES(default,$1,$2,$3,$4,true)';
+    var insert = 'INSERT INTO members (name, Class, rank, date) VALUES(default,$1,$2,$3,$4,TRUE)';
     const client = await pool.connect()
+    client.query(insert);
+    client.release();
   })
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
