@@ -25,7 +25,7 @@ express()
     var rank = req.body.rank;
     var joinDate = req.body.joinDate;
     
-    var insert = 'INSERT INTO members (pName, pClass, rank, joinDate) VALUES($1,$2,$3,$4)';
+    var insert = 'INSERT INTO members (name, class, rank, date) VALUES($1,$2,$3,$4)';
     const client = await pool.connect()
     client.query(insert);/*, function(err, result){
       if (!result){
